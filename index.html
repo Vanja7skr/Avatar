@@ -19,12 +19,26 @@
     <header>
       <div class="container">
         <img class="logo" src="./img/logo.jpg" alt="Avatar logo" />
-        <a class="main_button" href="#">Main</a>
-        <a class="about_us_button" href="#">About us</a>
-        <a class="contacts_button" href="#">Contacts</a>
-        <button class="log_in_button">Log In</button>
-        <!-- need to add befor and after on the language_button -->
-        <button class="language_button"></button>
+        <ul>
+          <li>
+            <a class="main_button" href="#">Main</a>
+          </li>
+          <li>
+            <a class="about_us_button" href="#">About us</a>
+          </li>
+          <li>
+            <a class="contacts_button" href="#">Contacts</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <button class="log_in_button">Log In</button>
+          </li>
+          <!-- need to add befor and after on the language_button -->
+          <li>
+            <button class="language_button"></button>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -47,15 +61,35 @@
           </p>
           <button class="main_warrior_button">Join clan</button>
           <!-- Img under this is for white logos -->
-          <img class="main_warrior_img_social_media" src="./img/social.jpg" alt="social media logos" />
+        </div>
+      </section>
+      <section class="social">
+        <div class="container">
+          <ul class="social_list">
+            <li class="social_list_item">
+              <a class="social_list_item_a" href=""
+                ><img class="social_list_item_a_img" src="./img/social_inst.jpg" alt="Instagram logo"
+              /></a>
+            </li>
+            <li class="social_list_item">
+              <a class="social_list_item_a" href=""
+                ><img class="social_list_item_a_img" src="./img/social_twit.png" alt="Twitter logo"
+              /></a>
+            </li>
+            <li class="social_list_item">
+              <a class="social_list_item_a" href=""
+                ><img class="social_list_item_a_img" src="./img/social_youtube.png" alt="Youtube logo"
+              /></a>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="people">
         <div class="container">
           <h2 class="people_h2">
-            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE
+            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME
+            LIKE A RAIN THAT NEVER ENDS.”
           </h2>
-          <h2 class="people_h2">GONNA COME LIKE A RAIN THAT NEVER ENDS.”</h2>
           <p class="people_p">JAKE SULLY</p>
           <img
             class="people_img"
@@ -99,7 +133,7 @@
             </li>
             <!-- same photo how are you and i see you -->
             <li class="energy_list_item">
-              <p energy_list_item_p_eng>How Are You?</p>
+              <p class="energy_list_item_p_eng" >How Are You?</p>
               <img
                 class="energy_list_item_img_arrow_both_sides"
                 src="./img/2_arrows_bird.jpg"
@@ -109,7 +143,7 @@
             </li>
             <!-- same photo i am well and follow me -->
             <li class="energy_list_item">
-              <p energy_list_item_p_eng>I'm Well</p>
+              <p class="energy_list_item_p_eng" >I'm Well</p>
               <img
                 class="energy_list_item_img_arrow_right"
                 src="./img/arrow_right.jpg"
@@ -119,7 +153,7 @@
             </li>
             <!-- same photo hello and thank you -->
             <li class="energy_list_item">
-              <p energy_list_item_p_eng>Thank you</p>
+              <p class="energy_list_item_p_eng" >Thank you</p>
               <img
                 class="energy_list_item_img_arrow_left"
                 src="./img/arrow_left.jpg"
@@ -129,7 +163,7 @@
             </li>
             <!-- same photo how are you and i see you -->
             <li class="energy_list_item">
-              <p energy_list_item_p_eng>I See You</p>
+              <p class="energy_list_item_p_eng" >I See You</p>
               <img
                 class="energy_list_item_img_arrow_both_sides"
                 src="./img/2_arrows_bird.jpg"
@@ -139,7 +173,7 @@
             </li>
             <!-- same photo i am well and follow me -->
             <li class="energy_list_item">
-              <p energy_list_item_p_eng>Follow me!</p>
+              <p class="energy_list_item_p_eng" >Follow me!</p>
               <img
                 class="energy_list_item_img_arrow_right"
                 src="./img/arrow_right.jpg"
@@ -172,10 +206,24 @@
       <section class="footer">
         <div class="container">
           <img class="logo" src="./img/logo.jpg" alt="Avatar logo" />
-          <p class="footer_p_qa">Q&A E-mail avatartwowqa@gmail.com</p>
-          <p class="footer_p_cooperation">
-            Cooperation E-mail avatartwowcoop@gmail.com
-          </p>
+          <ul>
+            <li>
+              <p class="footer_p_qa">
+                Q&A E-mail
+                <a href="mailto:avatartwowqa@gmail.com"
+                  >avatartwowqa@gmail.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <p class="footer_p_cooperation">
+                Cooperation E-mail
+                <a href="mailto:avatartwowcoop@gmail.com"
+                  >avatartwowcoop@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
           <small class="footer_small_copyright"
             >©2023 Avatar: The Way Of Water. All rights reserved</small
           >
