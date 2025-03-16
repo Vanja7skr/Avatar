@@ -1,11 +1,29 @@
-.main_warrior_img_arrow, .energy_list_item_img_arrow_left, .energy_list_item_img_arrow_both_sides, .energy_list_item_img_arrow_right {
-   height: 40px; 
-   width: 152px;
-}
+/* container */
+
+/* root */
+
+/* img */
 .people_img, .energy_img, .mother_img {
    height: 120px; 
    width: 400px;   
 }
-.social {
-   background-image: url(./img/social_inst.jpg);
+.logo { 
+  width: 186px;
+  height: 72px;
+}
+.main_warrior_img_arrow, .energy_list_item_img_arrow_left, .energy_list_item_img_arrow_both_sides, .energy_list_item_img_arrow_right {
+   height: 40px; 
+   width: 152px;
+}
+.social_list_item_a_img_inst {
+   width: 30px;
+   height: 30px;
+}
+.social_list_item_a_img_twit {
+   width: 34px;
+   height: 30px;
+}
+.social_list_item_a_img_you {
+   width: 50px;
+   height: 30px;
 }
