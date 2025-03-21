@@ -1,5 +1,8 @@
 /* container */
-
+.container {
+   margin: 0 auto;
+   width: 1032;
+}
 /* root */
 
 /* img */
@@ -15,15 +18,15 @@
    height: 40px; 
    width: 152px;
 }
-.social_list_item_a_img_inst {
-   width: 30px;
+.social_list_item_a_img {
    height: 30px;
 }
-.social_list_item_a_img_twit {
-   width: 34px;
-   height: 30px;
+/* header */
+.log_in_button_img {
+   width: 141px;
+   height: 41px;
 }
-.social_list_item_a_img_you {
-   width: 50px;
-   height: 30px;
+.language_button_img {
+   width: 36px;
+   height: 20px;
 }
