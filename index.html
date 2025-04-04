@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Avatar</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -12,72 +12,69 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header (Background img) -->
-    <header>
+    <header class="head">
+
       <div class="container">
         <a href="/" class="logo_a">
           <img src="./img/social/logo.png" class="logo" alt="">
         </a>
-
-        <ul>
-          <li>
-            <a class="main_button" href="#">Main</a>
+       <ul class="head_sps">
+          <li class="head_sps_nach">
+            <a class="head_sps_nach_button" href="#">Main</a>
           </li>
-          <li>
-            <a class="about_us_button" href="#">About us</a>
+          <li class="head_sps_nach">
+            <a class="head_sps_nach_button" href="#">About us</a>
           </li>
-          <li>
-            <a class="contacts_button" href="#">Contacts</a>
+          <li class="head_sps_nach">
+            <a class="head_sps_nach_button" href="#">Contacts</a>
           </li>
         </ul>
-        <ul class="button_list">
-          <li class="button_list_item">
             <button class="log_in_button"><img class="log_in_button_img" src="./img/arrows/log_in_button.png" alt=""></button>
-          </li>
-          <!-- need to add befor and after on the language_button -->
-          <li class="button_list_item">
-            <button class="language_button"><img class="language_button_img" src="./img/arrows/swicher_button.png" alt=""></button>
-          </li>
-        </ul>
       </div>
+          <!-- need to add befor and after on the language_button -->
+            <button class="language_button"><img class="language_button_img" src="./img/arrows/swicher_button.png" alt=""></button>
+           
     </header>
 
     <!-- main (Background img) -->
     <main>
       <section class="warrior">
         <div class="container">
-          <p class="main_warrior_p_(avatar)">
-            Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu
-            Na'viyä hapxì. Säwem nìayoeng!
+          <p class="main_warrior_p_avatar">
+            Oe perlltxe hu tsamsiyu!<br> Ngari hu Eywa salew tirea, <br>tokx 'ì'awn slu
+            Na'viyä hapxì. <br>Säwem nìayoeng!
           </p>
           <img
             class="main_warrior_img_arrow"
-            src="./img/arrows/arrow_left.png"
+            src="./img/arrows/warrior_arrow.png"
             alt=""
           />
-          <p class="main_warrior_p_(eng)">
-            I'm speaking with the warrior! Your spirit goes with Eywa, your body
-            stays behind to become part of the People. Fight with us!
+          <p class="main_warrior_p_eng">
+            I'm speaking with the warrior! <br>Your spirit goes with Eywa, <br>your body
+            stays behind to <br>become part of the People. <br>Fight with us!
           </p>
-          <button class="main_warrior_button">Join clan</button>
+          <button class="main_warrior_button"><img class="main_warrior_button" src="./img/arrows/join_clan_button.png" alt=""></button>
           <!-- Img under this is for white logos -->
         </div>
-      </section>
-      <section class="social">
+
         <div class="container">
           <ul class="social_list">
             <li class="social_list_item">
-              <a class="social_list_item_a" href=""
-                ><img class="social_list_item_a_img" width="30px" src="./img/social/social_inst.png" alt=""
-              /></a>
+              <a class="social_list_item_a" href="">
+                <img class="social_list_item_a_img" width="30px" src="./img/social/social_inst.png" alt=""/>
+              </a>
             </li>
             <li class="social_list_item">
-              <a class="social_list_item_a" href=""
-                ><img class="social_list_item_a_img" width="34px" src="./img/social/social_twit.png" alt=""
-              /></a>
+              <a class="social_list_item_a" href="">
+                <img class="social_list_item_a_img" width="34px" src="./img/social/social_twit.png" alt=""/>
+              </a>
             </li>
             <li class="social_list_item">
               <a class="social_list_item_a" href=""
@@ -88,11 +85,12 @@
         </div>
       </section>
       <section class="people">
-        <div class="container">
+        
           <h2 class="people_h2">
-            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME
+            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE <br>GONNA COME
             LIKE A RAIN THAT NEVER ENDS.”
           </h2>
+          <div class="container">
           <p class="people_p">JAKE SULLY</p>
           <img
             class="people_img"
@@ -104,13 +102,12 @@
       <!-- Background img in just a button(section) -->
       <section class="just_a_button">
         <div class="container">
-          <button class="just_a_button_button">WATCH TRAILER</button>
+          <button class="just_a_button_button"><img class="just_a_button_button_img" src="./img/arrows/watch_trailer_button.png" alt=""></button>
         </div>
       </section>
       <section class="energy">
         <div class="container">
-          <h2 class="energy_h2">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY</h2>
-          <h2 class="energy_h2">YOU HAVE TO GIVE IT BACK.”</h2>
+          <h2 class="energy_h2">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY YOU HAVE TO GIVE IT BACK.”</h2>
           <p class="energy_p">JAKE SULLY</p>
           <!-- same img as in people section -->
           <img
@@ -125,64 +122,64 @@
           <h3 class="energy_h3">Let's learn the Na'vi language</h3>
           <ul class="energy_list">
             <!-- same photo hello and thank you -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng">Hello</p>
+            <li class="energy_list_item_l_t">
+              <p class="energy_list_item_p1">Hello</p>
               <img
                 class="energy_list_item_img_arrow_left"
                 src="./img/arrows/arrow_left.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Kaltxì</p>
+              <p class="energy_list_item_p2">Kaltxì</p>
             </li>
             <!-- same photo how are you and i see you -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng" >How Are You?</p>
+            <li class="energy_list_item_m_t">
+              <p class="energy_list_item_p1" >How Are You?</p>
               <img
                 class="energy_list_item_img_arrow_both_sides"
                 src="./img/arrows/2_arrows_1_bird.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Ngaru lu fpom srak?</p>
+              <p class="energy_list_item_p2">Ngaru lu fpom srak?</p>
             </li>
             <!-- same photo i am well and follow me -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng" >I'm Well</p>
+            <li class="energy_list_item_r_t">
+              <p class="energy_list_item_p1" >I'm Well</p>
               <img
                 class="energy_list_item_img_arrow_right"
                 src="./img/arrows/arrow_right.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Lu fpom</p>
+              <p class="energy_list_item_p2">Lu fpom</p>
             </li>
             <!-- same photo hello and thank you -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng" >Thank you</p>
+            <li class="energy_list_item_l_b">
+              <p class="energy_list_item_p1" >Thank you</p>
               <img
                 class="energy_list_item_img_arrow_left"
                 src="./img/arrows/arrow_left.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Irayo si</p>
+              <p class="energy_list_item_p2">Irayo si</p>
             </li>
             <!-- same photo how are you and i see you -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng" >I See You</p>
+            <li class="energy_list_item_m_b">
+              <p class="energy_list_item_p1" >I See You</p>
               <img
                 class="energy_list_item_img_arrow_both_sides"
                 src="./img/arrows/2_arrows_1_bird.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Oel ngati kameie</p>
+              <p class="energy_list_item_p2">Oel ngati kameie</p>
             </li>
             <!-- same photo i am well and follow me -->
-            <li class="energy_list_item">
-              <p class="energy_list_item_p_eng" >Follow me!</p>
+            <li class="energy_list_item_r_b">
+              <p class="energy_list_item_p1" >Follow me!</p>
               <img
                 class="energy_list_item_img_arrow_right"
                 src="./img/arrows/arrow_right.png"
                 alt=""
               />
-              <p class="energy_list_item_avatar">Nong oet!</p>
+              <p class="energy_list_item_p2">Nong oet!</p>
             </li>
           </ul>
         </div>
@@ -190,7 +187,7 @@
       <section class="mother">
         <div class="container">
           <h2 class="mother_h2">
-            “OUR GREAT MOTHER DOES NOT TAKE SIDES,SHE PROTECTS ONLY THE BALANCE
+            “OUR GREAT MOTHER DOES NOT TAKE SIDES,<br>SHE PROTECTS ONLY THE BALANCE
             OF LIFE.”
           </h2>
           <p class="mother_p">NEYTIRI</p>
