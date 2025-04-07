@@ -44,12 +44,17 @@
   width: 516px;
 }
 .social_list_item_a_img_i {
+  width: 30px;
   padding-bottom: 24px;
 }
 .social_list_item_a_img_t {
+    width: 34px;
   padding-bottom: 27px;
 }
-
+.social_list_item_a_img_y {
+  width: 50px;
+  padding-bottom: 27px;
+}
 /* General header styling */
 .head {
   display: flex;
