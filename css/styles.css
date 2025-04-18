@@ -68,8 +68,12 @@
     url("../img/background/background_top.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
 
+}
+.head, .warrior, .people, .just_a_button, .language, .footer {
+    width: 1440px;
+  margin: 0 auto;
+}
 .head .container {
   display: flex;
   align-items: center;
@@ -458,8 +462,15 @@
   white-space: nowrap;
 }
 
-.footer_list_item p::after {
-  content: "--------------";
+.footer_p_qa::after {
+  content: "-------------------";
+  flex-grow: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 5px;
+}
+.footer_p_cooperation::after {
+  content: "-----------";
   flex-grow: 1;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
